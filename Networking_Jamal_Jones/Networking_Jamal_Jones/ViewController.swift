@@ -5,6 +5,9 @@
 //  Created by Consultant on 12/20/22.
 //
 
+//HW: Create a basic table view application that consumes a hard coded json file and displays the data
+
+
 import UIKit
 
 class ViewController: UIViewController {

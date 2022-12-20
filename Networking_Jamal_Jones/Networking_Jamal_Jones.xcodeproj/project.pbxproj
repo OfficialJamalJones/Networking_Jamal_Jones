@@ -16,6 +16,7 @@
 		02F0BED729523087006A5578 /* Networking_Jamal_JonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BED629523087006A5578 /* Networking_Jamal_JonesTests.swift */; };
 		02F0BEE129523087006A5578 /* Networking_Jamal_JonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEE029523087006A5578 /* Networking_Jamal_JonesUITests.swift */; };
 		02F0BEE329523087006A5578 /* Networking_Jamal_JonesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEE229523087006A5578 /* Networking_Jamal_JonesUITestsLaunchTests.swift */; };
+		02F0BEF029523198006A5578 /* NetworkingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEEF29523198006A5578 /* NetworkingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		02F0BEDC29523087006A5578 /* Networking_Jamal_JonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Networking_Jamal_JonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F0BEE029523087006A5578 /* Networking_Jamal_JonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_Jamal_JonesUITests.swift; sourceTree = "<group>"; };
 		02F0BEE229523087006A5578 /* Networking_Jamal_JonesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_Jamal_JonesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02F0BEEF29523198006A5578 /* NetworkingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				02F0BEBF29523086006A5578 /* AppDelegate.swift */,
 				02F0BEC129523086006A5578 /* SceneDelegate.swift */,
 				02F0BEC329523086006A5578 /* ViewController.swift */,
+				02F0BEEF29523198006A5578 /* NetworkingModel.swift */,
 				02F0BEC529523086006A5578 /* Main.storyboard */,
 				02F0BEC829523087006A5578 /* Assets.xcassets */,
 				02F0BECA29523087006A5578 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F0BEC429523086006A5578 /* ViewController.swift in Sources */,
+				02F0BEF029523198006A5578 /* NetworkingModel.swift in Sources */,
 				02F0BEC029523086006A5578 /* AppDelegate.swift in Sources */,
 				02F0BEC229523086006A5578 /* SceneDelegate.swift in Sources */,
 			);

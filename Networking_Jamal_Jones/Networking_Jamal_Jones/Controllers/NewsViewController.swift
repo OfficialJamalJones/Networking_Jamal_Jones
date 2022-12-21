@@ -14,7 +14,7 @@ class NewsViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.model.loadJson(filename: "example_1")
+        self.model.loadJson(filename: "articles")
     }
 
     // MARK: - Table view data source

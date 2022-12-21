@@ -1,0 +1,54 @@
+{
+   "articles":[
+      {
+         "id":"100",
+         "source":"Reuters",
+         "title":"Thousands without power after earthquake rattles northern California"
+      },
+      {
+         "id":"101",
+         "source":"The New York Times",
+         "title":"House Committee Will Vote on Making Trump’s Taxes Public"
+      },
+      {
+         "id":"102",
+         "source":"Fox Weather",
+         "title":"Christmas week blizzard could become bomb cyclone, snarl holiday trave..."
+      },
+      {
+         "id":"103",
+         "source":"The Hill",
+         "title":"Congressional negotiators roll out sweeping $1.7 trillion funding bill"
+      },
+      {
+         "id":"104",
+         "source":"The Washington Post",
+         "title":"The 7 things you need to know for Tuesday, December 20"
+      },
+      {
+         "id":"105",
+         "source":"Fox News",
+         "title":"Federal judge strikes down California's 'fee-shifting' gun control scheme, which echoed Texas abortion law"
+      },
+      {
+         "id":"106",
+         "source":"The Washington Post",
+         "title":"Zelensky visits Bakhmut troops venturing close to bloodiest fighting"
+      },
+      {
+         "id":"107",
+         "source":"Fox News",
+         "title":"Eric Adams silent on NYC second migrant death by suicide in shelter system ahead of Title 42 expiration"
+      },
+      {
+         "id":"108",
+         "source":"The Wall Street Journal",
+         "title":"Wells Fargo to Pay Record CFPB Fine to Settle Allegations It Harmed Customers"
+      },
+      {
+         "id":"109",
+         "source":"CNBC",
+         "title":"Elon Musk actively searching for a new Twitter CEO, sources say"
+      },
+   ]
+}

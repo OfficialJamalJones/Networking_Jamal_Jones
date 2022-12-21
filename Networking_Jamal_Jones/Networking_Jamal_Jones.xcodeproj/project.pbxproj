@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C27CE62953484D00FF1A3C /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 02C27CE52953484D00FF1A3C /* articles.json */; };
 		02F0BEC029523086006A5578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEBF29523086006A5578 /* AppDelegate.swift */; };
 		02F0BEC229523086006A5578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEC129523086006A5578 /* SceneDelegate.swift */; };
 		02F0BEC729523086006A5578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F0BEC529523086006A5578 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		02F0BEE129523087006A5578 /* Networking_Jamal_JonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEE029523087006A5578 /* Networking_Jamal_JonesUITests.swift */; };
 		02F0BEE329523087006A5578 /* Networking_Jamal_JonesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEE229523087006A5578 /* Networking_Jamal_JonesUITestsLaunchTests.swift */; };
 		02F0BEF029523198006A5578 /* NetworkingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEEF29523198006A5578 /* NetworkingModel.swift */; };
-		02F0BEF4295234D0006A5578 /* example_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 02F0BEF3295234D0006A5578 /* example_1.json */; };
 		02F0BEFB295240B9006A5578 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEFA295240B9006A5578 /* NewsViewController.swift */; };
 		02F0BEFD29524364006A5578 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0BEFC29524364006A5578 /* ArticleCell.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C27CE52953484D00FF1A3C /* articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
 		02F0BEBC29523086006A5578 /* Networking_Jamal_Jones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking_Jamal_Jones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F0BEBF29523086006A5578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F0BEC129523086006A5578 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		02F0BEE029523087006A5578 /* Networking_Jamal_JonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_Jamal_JonesUITests.swift; sourceTree = "<group>"; };
 		02F0BEE229523087006A5578 /* Networking_Jamal_JonesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_Jamal_JonesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		02F0BEEF29523198006A5578 /* NetworkingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingModel.swift; sourceTree = "<group>"; };
-		02F0BEF3295234D0006A5578 /* example_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = example_1.json; path = ../../../../../../../Downloads/example_1.json; sourceTree = "<group>"; };
 		02F0BEFA295240B9006A5578 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		02F0BEFC29524364006A5578 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,10 +105,10 @@
 		02F0BEBE29523086006A5578 /* Networking_Jamal_Jones */ = {
 			isa = PBXGroup;
 			children = (
+				02C27CE52953484D00FF1A3C /* articles.json */,
 				02F0BEF729523C2A006A5578 /* Controllers */,
 				02F0BEF629523C21006A5578 /* Views */,
 				02F0BEF529523C15006A5578 /* Models */,
-				02F0BEF3295234D0006A5578 /* example_1.json */,
 				02F0BEC829523087006A5578 /* Assets.xcassets */,
 				02F0BECD29523087006A5578 /* Info.plist */,
 			);
@@ -264,9 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C27CE62953484D00FF1A3C /* articles.json in Resources */,
 				02F0BECC29523087006A5578 /* LaunchScreen.storyboard in Resources */,
 				02F0BEC929523087006A5578 /* Assets.xcassets in Resources */,
-				02F0BEF4295234D0006A5578 /* example_1.json in Resources */,
 				02F0BEC729523086006A5578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
